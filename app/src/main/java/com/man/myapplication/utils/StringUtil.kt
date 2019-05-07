@@ -10,12 +10,10 @@ object StringUtil {
                 charArr[keyword.length - i - 1] = '\n'
                 break
             }
-
             if (charArr[i] == ' ') {
                 charArr[i] = '\n'
                 break
             }
-
         }
         return String(charArr)
     }
